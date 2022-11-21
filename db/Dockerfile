@@ -1,0 +1,7 @@
+FROM postgres:13
+
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=password
+ENV POSTGRES_DB=db_copa_do_mundo
+
+EXPOSE 5432
